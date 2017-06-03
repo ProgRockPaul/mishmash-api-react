@@ -31,11 +31,13 @@ class App extends Component {
                   </div>
 
                   <Route exact path="/" component={
-                      () => (<Home title={person.title}
+                      () => (<Home
+                        title={person.title}
                         name= {person.name} />
                   )}/>
                   <Route path="/state" component={
-                      () => (<State title={person.title}
+                      () => (<State
+                        title={person.title}
                         name= {person.name} />
                   )}/>
                   <Route path="/starwars" component={StarWars} />
