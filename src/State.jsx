@@ -43,7 +43,8 @@ class State extends Component {
               Change the Name in the story:
               <input type="text"
                 name="value"
-                value={this.state.value} onChange={this.handleChange} />
+                value={this.state.value} onChange={this.handleChange}
+              />
             </label>
           </form>
           <form onSubmit={this.handleSubmit2}>
@@ -51,7 +52,8 @@ class State extends Component {
               Change the Place in the story:
                 <input type="text"
                   name="value"
-                  value={this.state.place} onChange={this.handleChange2.bind(this)}/>
+                  value={this.state.place} onChange={this.handleChange2.bind(this)
+                }/>
             </label>
           </form>
 
